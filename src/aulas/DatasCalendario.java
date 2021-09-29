@@ -19,9 +19,9 @@ public class DatasCalendario {
 		System.out.println(sdf.format(teste1));
 		
 		Calendar cal = Calendar.getInstance(); // Criação de calendario.
-		cal.setTime(teste1); // Data informada na varavel d foi alocada no calendario.
+		cal.setTime(teste1); // Data informada na variavel teste1 foi alocada no calendario.
 		cal.add(Calendar.HOUR_OF_DAY, 4); // Data do calendario foi adicionado 4 horas.
-		teste1 = cal.getTime(); // Variavel d recebeu a data contida na variavel calendario.
+		teste1 = cal.getTime(); // Variavel teste1 recebeu a data contida na variavel calendario.
 		
 		System.out.println(sdf.format(teste1));
 		System.out.println();

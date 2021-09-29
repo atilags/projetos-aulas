@@ -1,6 +1,7 @@
 package aulas;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 //import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -17,6 +18,12 @@ public class Listas {
 		List<String> lista = new ArrayList<>();
 		
 		List<Integer> lista2 = new ArrayList<>();
+		
+		List<Double> lista3 = Arrays.asList(6.8, 9.6, 10.0, 9.1);
+		
+		System.out.println(lista3);
+		
+		System.out.println();
 		
 		lista2.add(2);
 		lista2.add(3);
@@ -68,7 +75,6 @@ public class Listas {
 		String localizar = lista.stream().filter(n -> n.charAt(0) == 'B').findFirst().orElse(null); // Localiza dentro de lista o primeiro local que contem 'B'
 		System.out.println();
 		System.out.println("Primeiro local que contem 'B': " + localizar);
-		
 		
 		/*
 		for(String listinha: lista) {

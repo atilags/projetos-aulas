@@ -7,7 +7,6 @@ public class Funcionario {
 	protected Double valorHora;
 	
 	public Funcionario() {
-		
 	}
 	
 	public Funcionario(String nome, Integer horasTrabalhadas, Double valorHora) {
